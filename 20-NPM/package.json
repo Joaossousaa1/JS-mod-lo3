@@ -1,21 +1,7 @@
 {
-  "name": "first-project-npm",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "eslint": "^9.1.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Joaossousaa1/JS-mod-lo3.git"
-  },
-  "author": "João",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Joaossousaa1/JS-mod-lo3/issues"
-  },
-  "homepage": "https://github.com/Joaossousaa1/JS-mod-lo3#readme",
   "dependencies": {
     "lodash": "^4.17.21"
   }
