@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Joaossousaa1/JS-mod-lo3/issues"
   },
-  "homepage": "https://github.com/Joaossousaa1/JS-mod-lo3#readme"
+  "homepage": "https://github.com/Joaossousaa1/JS-mod-lo3#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }

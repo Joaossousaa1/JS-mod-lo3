@@ -1,0 +1,3 @@
+npm init: inicializa o npm
+entro na pasta que desejo instalar o pacote.
+npm install --save nome do pacote: instala o pacote.
