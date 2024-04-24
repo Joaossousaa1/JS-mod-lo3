@@ -1,0 +1,24 @@
+// Dada a seguinte lista de compras:
+const listaDeCompras = [
+  { nome: 'Maçãs', quantidade: 5, precoUnitario: 2.5 },
+  { nome: 'Bananas', quantidade: 8, precoUnitario: 1.8 },
+  { nome: 'Cenouras', quantidade: 3, precoUnitario: 1.2 },
+  { nome: 'Abacaxis', quantidade: 2, precoUnitario: 4.0 }
+];
+
+/*
+  1. Crie uma função chamada 'calcularTotalCompra' que aceita a lista de 
+  compras como parâmetro.
+  
+  2. Dentro da função, utilize a desestruturação de parâmetros para extrair 
+  a quantidade e o preço unitário de cada item da lista.
+  
+  3. Calcule o custo total de cada item (quantidade * preço unitário) e 
+  armazene-o em uma nova propriedade chamada 'total' em cada objeto da lista.
+  
+  4. Ao final, a função deve retornar a lista de compras atualizada com a 
+  propriedade 'total'.
+  
+  5. Chame a função 'calcularTotalCompra' passando a lista de compras como 
+  argumento e exiba o resultado no console.
+*/

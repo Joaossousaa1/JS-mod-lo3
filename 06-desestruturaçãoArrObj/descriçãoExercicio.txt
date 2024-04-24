@@ -1,0 +1,46 @@
+/*
+  1. Utilize a desestruturação para extrair as seguintes informações:
+    a. O nome da empresa e atribua a uma variável chamada 'nomeEmpresa'.
+    b. O nome do CEO e atribua a uma variável chamada 'ceoNome'.
+    c. A cidade onde a empresa está localizada e atribua a uma variável 
+    chamada 'cidadeEmpresa'.
+    d. O número de funcionários no departamento de Desenvolvimento e 
+    atribua a uma variável chamada 'numFuncionariosDesenv'.
+  
+  2. Crie uma função chamada 'mostrarInformacoesEmpresa' que aceita o 
+    objeto da empresa como parâmetro e utiliza a desestruturação para exibir
+    as informações obtidas no console de forma organizada.
+  
+  3. Chame a função 'mostrarInformacoesEmpresa' passando o objeto 'empresa' 
+  como argumento.
+*/
+// Dado o seguinte objeto:
+const empresa = {
+  nome: 'TechCorp',
+  fundacao: 2000,
+  ceo: 'Alice Silva',
+  endereco: {
+    cidade: 'CidadeTech',
+    estado: 'TecLand',
+    pais: 'Techlandia'
+  },
+  departamentos: [
+    { nome: 'Desenvolvimento', funcionarios: 120 },
+    { nome: 'Vendas', funcionarios: 50 },
+    { nome: 'Suporte', funcionarios: 30 }
+  ]
+};
+
+// Desestruturando o objeto para extrair informações específicas:
+const { nome: nomeEmpresa, ceo: ceoNome, endereco: { cidade: cidadeEmpresa }, departamentos: [{ funcionarios: numFuncionariosDesenv }] } = empresa;
+
+// Criando a função para mostrar as informações:
+function mostrarInformacoesEmpresa(empresa) {
+  console.log(`Nome da Empresa: ${nomeEmpresa}`);
+  console.log(`CEO: ${ceoNome}`);
+  console.log(`Cidade da Empresa: ${cidadeEmpresa}`);
+  console.log(`Número de Funcionários no Desenvolvimento: ${numFuncionariosDesenv}`);
+}
+
+// Chamando a função e passando o objeto 'empresa' como argumento:
+mostrarInformacoesEmpresa(empresa);
