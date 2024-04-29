@@ -1,3 +1,6 @@
 npm init: inicializa o npm
 entro na pasta que desejo instalar o pacote.
 npm install --save nome do pacote: instala o pacote.
+npm install --save-dev: é para uma dependencia que a gente não use em produção, ou seja,
+só usamos quando estamos desenvolvendo. Exemplo: babel
+npm install --save-dev ou npm i -D

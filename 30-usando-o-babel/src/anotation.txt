@@ -1,0 +1,19 @@
+O babel é um compilador javaScript onde ele compila o código javaScript para
+navegadores que usam uma versão mais antiga.
+
+Para baixamos usamos npm i -D @babel/core @babel/cli @babel/present-env
+-D: pq nós não vamos usar o babel em produção, e sim em desenvolvimento, esse -D, ele resume o npm i --save-dev.
+
+npx babel index.js: ele retorna o código cm algumas formatações (no terminal);
+npx babel index.js --out-file dist.js: ele cria um arquivo dist.js, e retorna o código com algumas formatações;
+npx babel index.js --out-file dist.js --presets=@babel/preset-env: cria uma arquivo com o código formatado usando
+a lista de presets que nós importamos;
+
+Para usarmos em uma pasta inteira, devemos criar uma pasta chamada "src", normalmente usamos a pasta src, para
+guardar todos os nossos arquivos. 
+
+npx babel src --out-dir dist --presets=@babel/preset-env: mesma coisa do passado, só que agora, nós 
+formatamos uma pasta inteira de uma vez.
+
+É bom criar uma pasta chamada babel.config.js e colocar as presets lá e tirar a preset do .json,
+pq o javaScript sempre vai buscar se tem essa babel.config.js.
