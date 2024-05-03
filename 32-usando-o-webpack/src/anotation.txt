@@ -9,3 +9,12 @@ comprimir o maximo o arquivo para ele funcionar de forma mais otimizad.
 E nós podemos excluir a nossa node_modules, pois o webpack já empacotou tudo no 
 main.js. É só pegar o main.js que ele criou e colocar junto com a nossa aplicação
 que ele vai funcionar.
+
+configurando o webpack:
+O webpack criou o arq main.js dentro da dist, e ele indetificou que o nosso ponto de
+entrada era o src, mas tem como mudar essas config criando um arq chamado
+webpack.config.js para alterar essas coisas.
+
+webpack.config.js = module.exports {
+    entry:
+}
