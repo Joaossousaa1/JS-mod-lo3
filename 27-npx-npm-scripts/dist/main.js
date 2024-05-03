@@ -1,0 +1,1 @@
+(()=>{var o={862:o=>{function r(){return"Hello World NPM"}o.exports=r,r.helloWorld=function(){return"Hello World"}}},r={};function e(l){var n=r[l];if(void 0!==n)return n.exports;var t=r[l]={exports:{}};return o[l](t,t.exports,e),t.exports}(()=>{const o=e(862);console.log(`Execultando o hello-world-npm: ${o()}`)})()})();
