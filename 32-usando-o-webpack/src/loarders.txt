@@ -1,2 +1,4 @@
 Os loardes são ferramentes que o webpack utiliza para fazer
 transformações nos módulos. 
+
+npm i --save-dev style-loader css-loader: para instalar os loaders que desejamos usar
