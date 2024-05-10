@@ -1,7 +1,7 @@
 O babel é um compilador javaScript onde ele compila o código javaScript para
 navegadores que usam uma versão mais antiga.
 
-Para baixamos usamos npm i -D @babel/core @babel/cli @babel/present-env
+Para baixamos usamos npm i -D @babel/core @babel/cli @babel/preset-env
 -D: pq nós não vamos usar o babel em produção, e sim em desenvolvimento, esse -D, ele resume o npm i --save-dev.
 
 npx babel index.js: ele retorna o código cm algumas formatações (no terminal);
